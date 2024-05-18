@@ -72,9 +72,8 @@ li a {
         /* Style the image */
 .slideshow-container img {
             width: 100%;
-            height: auto;
             width: 800px; /* Set a fixed width for the slideshow */
-    height: 500px; /* Set a fixed height for the slideshow */
+    height: 250px; /* Set a fixed height for the slideshow */
     overflow: hidden; /* Hide overflow to keep it within the fixed size */
  
         }
@@ -103,9 +102,7 @@ li a {
             right: 0;
         }
 
-        /* Caption text */
 
-        /* Number text (1/3 etc) */
 .numbertext {
             color: #f2f2f2;
             font-size: 12px;
@@ -116,17 +113,16 @@ li a {
 .speech-bubble {
             width: 100%;
             height: auto;
-            background: url('speech bubble.png') no-repeat center center;
-            background-size: contain;
+            background: url('longer speech bubble.png') no-repeat center center;
             position: relative;
             text-align: center;
-            padding: 20px;
-            box-sizing: border-box;
+            padding: 10px;
+            
           
         }
         .text {
-            color: black;
-            font-size: 22px;
+            color: rgb(38, 40, 46);
+            font-size: 21px;
             position: absolute;
             top: 50%;
             left: 50%;
