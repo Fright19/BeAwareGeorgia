@@ -3,6 +3,9 @@ body {
     padding-top: 100px; /* Add padding to push content below the navbar */
     background-image: url('background.png');
     background-repeat: repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
     font-family: 'arcadeclassic', cursive
 }
 
@@ -48,7 +51,6 @@ li a {
 }
 
 .content {
-    margin-top: 25px;
     display: flex; /* Use flexbox */
 }
 
