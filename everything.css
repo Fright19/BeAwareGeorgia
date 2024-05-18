@@ -43,3 +43,14 @@ img {
     height: auto;
     margin-top: 400px;
 }
+#mascotImage {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust height to maintain aspect ratio */
+}
+
+.mascot-container {
+    display: flex;
+    align-items: center; /* Center vertically */
+    cursor: pointer;
+  
+}
