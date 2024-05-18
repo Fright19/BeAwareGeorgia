@@ -52,6 +52,7 @@ li a {
 
 .content {
     display: flex; /* Use flexbox */
+  
 }
 
 .content img {
@@ -155,6 +156,29 @@ li a {
         .prev:hover, .next:hover {
             background-color: rgba(0,0,0,0.8);
         }
+
+        .problem{
+            display: flex;
+        }
+
+        table {
+            width: 60%; /* Smaller width for the table */
+            margin: 50px auto; /* Center the table with margin */
+            border-collapse: collapse; /* Remove space between cells */
+            background-color: white; /* Set table background to white */
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+            background-color: white; /* Set cell background to white */
+        }
+        
+        th {
+            font-weight: bold;
+        }
+          
         @font-face {
             font-family: 'redensek';
             src: url('REDENSEK.TTF') format('truetype');
